@@ -3,7 +3,7 @@
     <nav class="nav">
       <div class="logo">
         <a href="#" class="logo">
-          <img src="../assets/images/logo.png" id="logo-img" />
+          <img src="/assets/images/logo.png" id="logo-img" />
         </a>
         <div id="text-logo">
           <span style="color: rgb(100, 100, 100)"> 한양약대 선거운동본부 </span>
