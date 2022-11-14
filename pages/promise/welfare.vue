@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>공약-복지</title>
-
     <h1 class="title">복지</h1>
 
     <h2>

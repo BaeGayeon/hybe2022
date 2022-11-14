@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>공약-소통</title>
-
     <h1 class="title">소통</h1>
 
     <h2>

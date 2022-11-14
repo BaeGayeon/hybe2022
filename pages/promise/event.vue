@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>공약-행사</title>
-
     <h1 class="title">행사</h1>
 
     <h2>

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>공약-교육</title>
-
     <h1 class="title">교육</h1>
 
     <h2>

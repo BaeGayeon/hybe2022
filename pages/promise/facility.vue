@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>공약-시설</title>
-
     <h1 class="title">시설</h1>
 
     <h2>

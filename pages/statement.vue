@@ -1,7 +1,5 @@
 <template>
   <div>
-    <title>출마의 변</title>
-
     <h1 class="title">출마의 변</h1>
 
     <div class="statement">
