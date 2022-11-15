@@ -381,6 +381,6 @@ span {
 }
 
 .noh3 {
-  padding-top: 15px;
+  padding-top: 13px;
 }
 </style>
