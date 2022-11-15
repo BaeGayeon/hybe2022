@@ -33,7 +33,7 @@
             />
             <label for="promisemenu">공약</label>
             <ul>
-              <a href="/promise/facility">
+              <a href="./promise/facility">
                 <li class="menu submenu submenu1" v-if="promiseview">
                   <img
                     class="sidemenuicon"
@@ -49,7 +49,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="/promise/communication">소통</a>
+                <a href="./promise/communication">소통</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
@@ -57,7 +57,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="/promise/welfare">복지</a>
+                <a href="./promise/welfare">복지</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
@@ -65,7 +65,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="/promise/event">행사</a>
+                <a href="./promise/event">행사</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
@@ -73,7 +73,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="/promise/education">교육</a>
+                <a href="./promise/education">교육</a>
               </li>
               <li class="menu submenu submenue" v-if="promiseview">
                 <img
@@ -81,17 +81,17 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="/promise/all">부록(공약집)</a>
+                <a href="./promise/all">부록(공약집)</a>
               </li>
             </ul>
           </li>
           <li class="menu">
             <img class="sidemenuicon" src="../assets/images/plus.png" />
-            <a href="/statement">출마의 변</a>
+            <a href="./statement">출마의 변</a>
           </li>
           <li class="menu">
             <img class="sidemenuicon" src="../assets/images/plus.png" />
-            <a href="/profile">후보자 약력</a>
+            <a href="./profile">후보자 약력</a>
           </li>
           <li class="menu">
             <input type="checkbox" id="snsmenu" v-model="snsview" />
