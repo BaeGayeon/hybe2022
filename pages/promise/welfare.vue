@@ -66,20 +66,20 @@
     </div>
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show1 = !show1">
+        <h3 class="atitle0" @click="show2 = !show2">
           3. 제휴사업 확대 및 혜택 강화
           <img
-            v-if="!show1"
+            v-if="!show2"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show1"
+            v-if="show2"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show1">
+        <div class="acontents" v-if="show2">
           <div>
             <h4>필요성 및 목표</h4>
             현재 한양약대 제휴업체는 음식점과 술집 위주로 학우들이 충분한 혜택을
@@ -100,21 +100,21 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show2 = !show2">
+        <h3 class="atitle0" @click="show3 = !show3">
           4. 동아리 승격 절차 및 요건 완화 추진
 
           <img
-            v-if="!show2"
+            v-if="!show3"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show2"
+            v-if="show3"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show2">
+        <div class="acontents" v-if="show3">
           <div>
             <h4>필요성</h4>
             현재 소모임이 정식 동아리로 등록되기 위해서는 오랜 시간을 걸쳐 2번의
@@ -134,20 +134,20 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show3 = !show3">
+        <h3 class="atitle0" @click="show4 = !show4">
           5. 동아리 지원금을 통한 동아리방 환경 개선
           <img
-            v-if="!show3"
+            v-if="!show4"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show3"
+            v-if="show4"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show3">
+        <div class="acontents" v-if="show4">
           <div>
             <h4>필요성</h4>
             현재 지하 1층 동아리방은 공연 동아리를 제외하면 창고로 쓰이거나
@@ -176,6 +176,7 @@ export default {
       show1: false,
       show2: false,
       show3: false,
+      show4: false,
     };
   },
   methods: {},

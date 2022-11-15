@@ -77,20 +77,20 @@
     </div>
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show1 = !show1">
+        <h3 class="atitle0" @click="show2 = !show2">
           3. 화장실 비데 설치(100% 사비로 진행)
           <img
-            v-if="!show1"
+            v-if="!show2"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show1"
+            v-if="show2"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show1">
+        <div class="acontents" v-if="show2">
           <div>
             <h4>필요성 및 목표</h4>
             약학대학 시간표 특성상 오랜 시간 약학관 내에서 생활하는 학우분들이
@@ -110,20 +110,20 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show2 = !show2">
+        <h3 class="atitle0" @click="show3 = !show3">
           4. 여성, 남성 수면실 분리
           <img
-            v-if="!show2"
+            v-if="!show3"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show2"
+            v-if="show3"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show2">
+        <div class="acontents" v-if="show3">
           <div>
             <h4>필요성</h4>
             현재 여학우들의 수면실 이용률이 현저히 낮습니다. 그 이유로 저희는
@@ -143,20 +143,20 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show3 = !show3">
+        <h3 class="atitle0" @click="show4 = !show4">
           5. 약도 및 국시실 시설 개선
           <img
-            v-if="!show3"
+            v-if="!show4"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show3"
+            v-if="show4"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show3">
+        <div class="acontents" v-if="show4">
           <div>
             <h4>필요성 및 목표</h4>
             <p class="listp">
@@ -195,6 +195,7 @@ export default {
       show1: false,
       show2: false,
       show3: false,
+      show4: false,
     };
   },
   methods: {},
