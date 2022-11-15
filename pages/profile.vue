@@ -20,14 +20,16 @@
   width: 30%;
   display: block;
   margin: auto;
-  border-radius: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h1.name {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
-  padding: 20px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
   font-weight: 900;
   position: relative;
   background-color: rgb(235, 235, 235, 0);
@@ -41,7 +43,7 @@ h1.name:after {
   top: 1px;
   height: 100%;
   font-size: 1.4em;
-  color: rgb(255, 255, 255);
+  color: rgb(236, 213, 78);
 
   transition: all 0.5s ease;
   transform: translateX(-5px);
@@ -61,21 +63,24 @@ h1.name:hover:after {
 }
 
 .box {
-  margin: 20px;
+  margin: 12px;
   text-align: center;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     rgb(236, 213, 78) 33%,
     rgb(235, 235, 235) 33%,
     rgb(235, 235, 235) 33%
-  );
-  border-radius: 30px;
+  ); */
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
 }
 
 .profile {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   width: 90%;
   background-color: rgb(235, 235, 235, 0);
+  border-top: 1.6px solid rgb(48, 48, 48);
 }
 </style>
