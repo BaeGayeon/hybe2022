@@ -4,8 +4,7 @@
     <div id="btns">
       <ul>
         <li
-          class="btn"
-          id="btn1"
+          class="btn btn1"
           @click="showPromise"
           :class="{ pushbtn: viewpromise == true }"
         >
@@ -150,14 +149,14 @@ a {
   box-shadow: 0px 0px 0px 0px #007144;
 } */
 
-.pushbtn {
-  margin-top: 15px;
-  margin-bottom: 5px;
-  box-shadow: 0px 0px 0px 0px rgba(22, 126, 67, 255);
+.btn1 {
+  margin-top: 0;
 }
 
-#btn1 {
-  margin-top: 0;
+.pushbtn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 0px 0px rgba(22, 126, 67, 255);
 }
 
 #btns ul {
