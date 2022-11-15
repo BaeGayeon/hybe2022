@@ -9,7 +9,7 @@
           :class="{ pushbtn: viewpromise == true }"
         >
           하이브[HY:BE] 주요공약 확인하기
-          <img class="arrow" src="../assets/images/right_arrow_2.png" />
+          <img class="indexarrow" src="../assets/images/right_arrow_2.png" />
         </li>
         <ul>
           <nuxt-link to="promise/facility" v-if="viewpromise">
@@ -34,13 +34,13 @@
         <nuxt-link to="statement">
           <li class="btn">
             출마의 변 확인하기
-            <img class="arrow" src="../assets/images/right_arrow_2.png" />
+            <img class="indexarrow" src="../assets/images/right_arrow_2.png" />
           </li>
         </nuxt-link>
         <a href="profile">
           <li class="btn">
             후보자 약력 확인하기
-            <img class="arrow" src="../assets/images/right_arrow_2.png" />
+            <img class="indexarrow" src="../assets/images/right_arrow_2.png" />
           </li>
         </a>
       </ul>
@@ -87,7 +87,7 @@ export default {
   width: 100%;
 }
 
-.arrow {
+.indexarrow {
   width: 20px;
   margin: 2px;
 }
