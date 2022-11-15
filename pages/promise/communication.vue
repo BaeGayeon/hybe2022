@@ -335,7 +335,7 @@ h1.title {
   border-top: 0.5px solid rgb(185, 185, 185);
   border-bottom: 1px solid rgb(185, 185, 185);
   padding: 15px;
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-weight: 500;
   background-color: white;
 }

@@ -8,7 +8,8 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
-          1. 업소용 원두 커피머신&제빙기 설치(100% 사비로 진행)
+          1. 업소용 원두 커피머신&제빙기 설치
+          <br />&nbsp;&nbsp;&nbsp;(100% 사비로 진행)
           <img
             v-if="!show0"
             class="arrow"
@@ -217,14 +218,15 @@ h1.title {
   margin: 0px 10px 0 10px;
   border-top: 0.5px solid rgb(185, 185, 185);
   border-bottom: 1px solid rgb(185, 185, 185);
-  padding: 15px;
-  font-size: 13.5px;
+  padding: 15px 10px 15px 10px;
+  font-size: 14.5px;
   font-weight: 500;
   background-color: white;
 }
 
 .atitle0 {
   border-top: none;
+
   background-color: white;
 }
 

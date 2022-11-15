@@ -153,9 +153,11 @@ export default {
 
 <style scoped>
 #text-logo {
-  font-size: 14.4px;
+  font-size: 13px;
   font-weight: 700;
   /* color: rgb(60, 60, 60); */
+  letter-spacing: -0.3px;
+  word-spacing: -1px;
 }
 .hello {
   padding-top: 11px;
@@ -201,7 +203,7 @@ a {
   cursor: pointer;
   user-select: none;
   margin: 2px;
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   word-spacing: -2px;
   text-indent: 30px;
 }
@@ -251,8 +253,8 @@ input[id="menuicon"] {
 }
 input[id="menuicon"] + label {
   display: block;
-  margin: 25px;
-  margin-left: 20px;
+  margin: 23px;
+  margin-left: 16px;
   width: 35px;
   height: 25px;
   position: relative;
