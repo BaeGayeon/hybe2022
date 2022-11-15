@@ -172,11 +172,11 @@
 export default {
   data() {
     return {
-      show0: false,
-      show1: false,
-      show2: false,
-      show3: false,
-      show4: false,
+      // show0: false,
+      // show1: false,
+      // show2: false,
+      // show3: false,
+      // show4: false,
     };
   },
   methods: {},
@@ -229,7 +229,7 @@ span {
 }
 
 .arrow {
-  width: 20px;
+  width: 0px;
   vertical-align: middle;
   float: right;
 }

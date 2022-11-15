@@ -81,8 +81,8 @@
 export default {
   data() {
     return {
-      show0: false,
-      show1: false,
+      // show0: false,
+      // show1: false,
     };
   },
   methods: {},
@@ -135,7 +135,7 @@ span {
 }
 
 .arrow {
-  width: 20px;
+  width: 0px;
   vertical-align: middle;
   float: right;
 }
