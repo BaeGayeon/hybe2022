@@ -17,6 +17,7 @@ export default {};
   font-weight: 500;
   text-align: left;
   padding: 8px;
+  padding-top: 3px;
   font-size: 14px;
   color: rgb(255, 255, 255);
 }
