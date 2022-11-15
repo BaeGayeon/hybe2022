@@ -35,6 +35,6 @@ module.exports = {
   },
   target: "static",
   router: {
-    base: "/hybe2022.site/",
+    base: "/",
   },
 };
