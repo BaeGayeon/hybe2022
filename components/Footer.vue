@@ -16,8 +16,9 @@ export default {};
   align-items: center;
   font-weight: 500;
   text-align: left;
-  padding: 8px;
+  padding: 7.5px;
   padding-top: 3px;
+  padding-bottom: 4.5px;
   font-size: 14px;
   color: rgb(255, 255, 255);
 }
