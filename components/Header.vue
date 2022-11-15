@@ -22,84 +22,86 @@
           <li class="menu menu1">
             <input type="checkbox" id="promisemenu" v-model="promiseview" />
             <img
-              class="menuicon"
+              class="sidemenuicon"
               src="../assets/images/plus.png"
               v-if="!promiseview"
             />
             <img
-              class="menuicon"
+              class="sidemenuicon"
               src="../assets/images/minus.png"
               v-if="promiseview"
             />
             <label for="promisemenu">공약</label>
             <ul>
-              <li class="menu submenu submenu1" v-if="promiseview">
+              <a href="/promise/facility">
+                <li class="menu submenu submenu1" v-if="promiseview">
+                  <img
+                    class="sidemenuicon"
+                    src="../assets/images/minus.png"
+                    v-if="promiseview"
+                  />
+                  시설
+                </li>
+              </a>
+              <li class="menu submenu" v-if="promiseview">
                 <img
-                  class="menuicon"
+                  class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <nuxt-link to="/promise/facility">시설</nuxt-link>
+                <a href="/promise/communication">소통</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
-                  class="menuicon"
+                  class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <nuxt-link to="/promise/communication">소통</nuxt-link>
+                <a href="/promise/welfare">복지</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
-                  class="menuicon"
+                  class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <nuxt-link to="/promise/welfare">복지</nuxt-link>
+                <a href="/promise/event">행사</a>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
-                  class="menuicon"
+                  class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <nuxt-link to="/promise/event">행사</nuxt-link>
-              </li>
-              <li class="menu submenu" v-if="promiseview">
-                <img
-                  class="menuicon"
-                  src="../assets/images/minus.png"
-                  v-if="promiseview"
-                />
-                <nuxt-link to="/promise/education">교육</nuxt-link>
+                <a href="/promise/education">교육</a>
               </li>
               <li class="menu submenu submenue" v-if="promiseview">
                 <img
-                  class="menuicon"
+                  class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <nuxt-link to="/promise/all">부록(공약집)</nuxt-link>
+                <a href="/promise/all">부록(공약집)</a>
               </li>
             </ul>
           </li>
           <li class="menu">
-            <img class="menuicon" src="../assets/images/plus.png" />
-            <nuxt-link to="/statement">출마의 변</nuxt-link>
+            <img class="sidemenuicon" src="../assets/images/plus.png" />
+            <a href="/statement">출마의 변</a>
           </li>
           <li class="menu">
-            <img class="menuicon" src="../assets/images/plus.png" />
-            <nuxt-link to="/profile">후보자 약력</nuxt-link>
+            <img class="sidemenuicon" src="../assets/images/plus.png" />
+            <a href="/profile">후보자 약력</a>
           </li>
           <li class="menu">
             <input type="checkbox" id="snsmenu" v-model="snsview" />
             <img
-              class="menuicon"
+              class="sidemenuicon"
               src="../assets/images/plus.png"
               v-if="!snsview"
             />
             <img
-              class="menuicon"
+              class="sidemenuicon"
               src="../assets/images/minus.png"
               v-if="snsview"
             />
@@ -108,7 +110,7 @@
               <a href="https://www.instagram.com/hyup_hy.be_2022">
                 <li class="menu submenu submenu1" v-if="snsview">
                   <img
-                    class="menuicon"
+                    class="sidemenuicon"
                     src="../assets/images/minus.png"
                     v-if="snsview"
                   />
@@ -120,7 +122,7 @@
               >
                 <li class="menu submenu submenue" v-if="snsview">
                   <img
-                    class="menuicon"
+                    class="sidemenuicon"
                     src="../assets/images/minus.png"
                     v-if="snsview"
                   />
@@ -239,7 +241,7 @@ a {
   display: none;
 }
 
-.menuicon {
+.sidemenuicon {
   width: 12px;
   margin-right: 7px;
 }
