@@ -2,7 +2,7 @@
   <div>
     <Header />
     <nuxt />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -158,12 +158,7 @@ export default {
 * {
   font-family: "Pretendard-Regular";
   word-break: keep-all;
-  /* background-color: rgb(22, 126, 67); */
-}
-
-body {
   margin: 0;
-  padding: 0;
-  width: 100%;
+  background-color: white;
 }
 </style>
