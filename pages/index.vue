@@ -1,7 +1,7 @@
 <template>
   <div id="index">
     <!-- <div><img class="hello" src="../assets/images/hello.jpg" /></div> -->
-    <div>
+    <div id="btns">
       <ul>
         <li
           class="btn"
@@ -13,9 +13,9 @@
           <img class="arrow" src="../assets/images/right_arrow_2.png" />
         </li>
         <ul>
-          <a href="promise/facility" v-if="viewpromise">
+          <nuxt-link to="promise/facility" v-if="viewpromise">
             <li class="promiseBtn">시설</li>
-          </a>
+          </nuxt-link>
           <a href="promise/communication" v-if="viewpromise">
             <li class="promiseBtn">소통</li>
           </a>
@@ -32,12 +32,12 @@
             <li class="promiseBtn">부록(공약집)</li>
           </a>
         </ul>
-        <a href="statement">
+        <nuxt-link to="statement">
           <li class="btn">
             출마의 변 확인하기
             <img class="arrow" src="../assets/images/right_arrow_2.png" />
           </li>
-        </a>
+        </nuxt-link>
         <a href="profile">
           <li class="btn">
             후보자 약력 확인하기
@@ -93,7 +93,7 @@ export default {
   margin: 2px;
 }
 
-body {
+#btns {
   background-color: rgb(22, 126, 67);
 }
 
@@ -103,6 +103,7 @@ body {
 
 a {
   text-decoration: none;
+  background-color: rgba(255, 255, 254, 0);
 }
 
 .btn {
@@ -152,19 +153,24 @@ a {
 .pushbtn {
   margin-top: 15px;
   margin-bottom: 5px;
-  box-shadow: 0px 0px 0px 0px #007144;
+  box-shadow: 0px 0px 0px 0px rgba(22, 126, 67, 255);
 }
 
 #btn1 {
   margin-top: 0;
 }
 
-ul {
+#btns ul {
   padding: 0;
   margin: 0;
   text-align: center;
   align-items: center;
   margin-left: auto;
+  background-color: rgba(22, 126, 67, 255);
   margin-right: auto;
+}
+
+#index {
+  background-color: rgba(22, 126, 67, 255);
 }
 </style>

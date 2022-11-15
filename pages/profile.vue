@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="pf">
     <div id="jeong" class="box">
       <h1 class="name">정우성 ㅣ 정후보</h1>
 
@@ -30,6 +30,7 @@ h1.name {
   padding: 20px 0px 10px 0px;
   font-weight: 900;
   position: relative;
+  background-color: rgb(235, 235, 235, 0);
 }
 
 h1.name:before,
@@ -75,5 +76,6 @@ h1.name:hover:after {
   padding-top: 20px;
   padding-bottom: 10px;
   width: 90%;
+  background-color: rgb(235, 235, 235, 0);
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="statement">
     <h1 class="title">출마의 변</h1>
 
     <div class="statement">
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style>
-h2 {
+h2.statement {
   position: relative;
   padding-left: 10px;
   color: rgb(22, 126, 67, 1);
@@ -70,11 +70,12 @@ h2 {
   text-align: center;
 }
 
-h1 {
+.statement h1 {
+  padding-top: 10px;
   text-align: center;
 }
 
-h3 {
+.statement h3 {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 0;
@@ -86,11 +87,12 @@ h3 {
 }
 
 .statement {
-  margin: 20px;
+  margin: 15px;
   line-height: 29px;
+  background-color: white;
 }
 
-p {
+.statement p {
   margin-top: 20px;
 }
 </style>
