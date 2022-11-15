@@ -9,15 +9,15 @@ export default {};
 </script>
 
 <style scoped>
-.footer {
+.footer * {
   word-break: keep-all;
-  /* background-color: rgb(87, 87, 87); */
+  background-color: rgb(22, 126, 67);
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
   text-align: left;
-  padding: 5px 0px 0px 10px;
-  font-size: 17px;
-  color: white;
+  padding: 8px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 </style>
