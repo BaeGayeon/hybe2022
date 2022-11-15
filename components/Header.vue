@@ -39,7 +39,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a to="/promise/facility">시설</a>
+                <nuxt-link to="/promise/facility">시설</nuxt-link>
               </li>
               <li class="menu submenu" v-if="promiseview">
                 <img
