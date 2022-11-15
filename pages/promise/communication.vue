@@ -206,7 +206,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show6 = !show6">
-          7. 인스타그램 활성화
+          6-(1) 인스타그램 활성화
           <img
             v-if="!show6"
             class="arrow"
@@ -236,7 +236,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show7 = !show7">
-          8. 한양대학교 약학대학 유튜브 제작
+          6-(2) 한양대학교 약학대학 유튜브 제작
           <img
             v-if="!show7"
             class="arrow"
@@ -263,7 +263,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show8 = !show8">
-          9. 에브리타임 약대 게시판 개설
+          6-(3) 에브리타임 약대 게시판 개설
           <img
             v-if="!show8"
             class="arrow"
