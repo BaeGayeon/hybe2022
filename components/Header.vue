@@ -81,7 +81,7 @@
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
-                <a href="./promise/all">부록(공약집)</a>
+                <a href="./promise/all">앞으로의 노력</a>
               </li>
             </ul>
           </li>

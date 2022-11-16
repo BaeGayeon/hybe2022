@@ -28,7 +28,7 @@
             <li class="promiseBtn">교육</li>
           </a>
           <a href="promise/all" v-if="viewpromise">
-            <li class="promiseBtn">부록(공약집)</li>
+            <li class="promiseBtn">앞으로의 노력</li>
           </a>
         </ul>
         <nuxt-link to="statement">
