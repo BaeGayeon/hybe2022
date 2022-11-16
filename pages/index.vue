@@ -143,11 +143,15 @@ a {
   width: 25%;
 }
 
-/* .btn:hover {
+.btn:hover {
   margin-top: 15px;
   margin-bottom: 5px;
   box-shadow: 0px 0px 0px 0px #007144;
-} */
+}
+
+.btn1:hover {
+  margin-top: 5px;
+}
 
 .btn1 {
   margin-top: 0;
