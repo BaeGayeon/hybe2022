@@ -9,7 +9,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
-          1. 4부 형성 (멘토멘티 활용)
+          1. 멘토멘티 4부 행사
           <img
             v-if="!show0"
             class="arrow"
@@ -46,67 +46,31 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show1 = !show1">
-          2. 남부지부 체육대회 개최
+        <h3 class="atitle0" @click="show4 = !show4">
+          2. 새내기 배움터 기획
           <img
-            v-if="!show1"
+            v-if="!show4"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show1"
+            v-if="show4"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show1">
+        <div class="acontents" v-if="show4">
           <div>
             <h4>필요성</h4>
-            올해 남부지부 약대생 간 교류가 학생회에 국한되어 있다 보니, 학생회가
-            아닌 학우분들도 남부지부 약대생들과 교류가 필요하다는 의견이
-            많았습니다.
+            코로나 이전에는 총 엠티 등 많은 학교 행사를 통해 선후배 간의 관계가
+            돈독했던 반면, 현재는 많은 행사가 제한되며 조금은 멀어지게
+            되었습니다.
           </div>
           <div>
             <h4>계획 및 목표</h4>
-            남부지부 체육대회를 추진하여 타 약대생과의 교류의 기회를
-            마련하겠습니다. 현재 ’과천관문체육공원‘과 컨택이 되었고 남부지부
-            차기 회장단들 (단일후보) 중 4개 학교에서 긍정적 답변을 주신
-            상태입니다. 또한 남부지부 행사인 만큼 다른 학교와의 대항전뿐만
-            아니라 타 약대생들과 조를 형성하여 미니게임들을 진행하고, 체육대회
-            후 뒷풀이를 통해 남부지부 약대생 간의 교류문화를 활성화하겠습니다.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="atitle">
-      <div>
-        <h3 class="atitle0" @click="show2 = !show2">
-          3. 남부지부 문화생활 소모임 구성
-          <img
-            v-if="!show2"
-            class="arrow"
-            src="../../assets/images/down-arrow.png"
-          />
-          <img
-            v-if="show2"
-            class="arrow"
-            src="../../assets/images/up-arrow.png"
-          />
-        </h3>
-        <div class="acontents" v-if="show2">
-          <div>
-            <h4>필요성</h4>
-            문화생활(등산, 독서, 야구관람, 뮤지컬 및 연극 관람 등)를 좋아하는
-            학우분들께서 우리 학교 내에서는 힘께 같이 즐기는 인원이 적어서
-            아쉽고 여럿과 즐기고 싶다는 의견을 주셨습니다.
-          </div>
-          <div>
-            <h4>계획 및 목표</h4>
-            같은 문화생활을 즐기는 인원을 남부지부로 확대해 모집하여 소모임을
-            구성할 수 있도록 함으로써 문화 생활을 더욱 잘 즐길 수 있음과 동시에
-            현재 부족했던 남부지부 교류를 활성화하겠습니다. 이러한 소모임이
-            연합동아리로 발전한다면 남부지부 전체에 긍정적 효과를 기대할 수
-            있습니다.
+            코로나 세대 이전에 하던 행사인 새내기 배움터 (총 엠티)를 다시
+            기획함으로써 이전의 끈끈한 선후배 관계를 되찾고 학년 대화합의 장을
+            열고자 합니다.
           </div>
         </div>
       </div>
@@ -115,7 +79,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show3 = !show3">
-          4. 미리배움터 기획
+          3. 미리배움터 기획
           <img
             v-if="!show3"
             class="arrow"
@@ -147,40 +111,8 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show4 = !show4">
-          5. 새내기 배움터 (총 엠티) 기획
-          <img
-            v-if="!show4"
-            class="arrow"
-            src="../../assets/images/down-arrow.png"
-          />
-          <img
-            v-if="show4"
-            class="arrow"
-            src="../../assets/images/up-arrow.png"
-          />
-        </h3>
-        <div class="acontents" v-if="show4">
-          <div>
-            <h4>필요성</h4>
-            코로나 이전에는 총 엠티 등 많은 학교 행사를 통해 선후배 간의 관계가
-            돈독했던 반면, 현재는 많은 행사가 제한되며 조금은 멀어지게
-            되었습니다.
-          </div>
-          <div>
-            <h4>계획 및 목표</h4>
-            코로나 세대 이전에 하던 행사인 새내기 배움터 (총 엠티)를 다시
-            기획함으로써 이전의 끈끈한 선후배 관계를 되찾고 학년 대화합의 장을
-            열고자 합니다.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="atitle">
-      <div>
         <h3 class="atitle0" @click="show5 = !show5">
-          6. 축제기간 주점 운영
+          4. 축제기간 약학대학 주점 운영
           <img
             v-if="!show5"
             class="arrow"
@@ -207,6 +139,75 @@
             타과와의 자연스러운 교류 기회가 될 것입니다. 또한 축제기간 주점 운영
             준비과정에 주점기획단을 구성하여 비학생회 학우분들도 학교 행사에
             능동적으로 참여할 수 있는 기회를 만들겠습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="atitle">
+      <div>
+        <h3 class="atitle0" @click="show1 = !show1">
+          5. 남부지부 행사 다양화
+          <img
+            v-if="!show1"
+            class="arrow"
+            src="../../assets/images/down-arrow.png"
+          />
+          <img
+            v-if="show1"
+            class="arrow"
+            src="../../assets/images/up-arrow.png"
+          />
+        </h3>
+        <div class="acontents" v-if="show1">
+          <div>
+            <h4>필요성</h4>
+            올해 남부지부 약대생 간 교류가 학생회에 국한되어 있다 보니, 학생회가
+            아닌 학우분들도 남부지부 약대생들과 교류가 필요하다는 의견이
+            많았습니다.
+          </div>
+          <div>
+            <h4>계획 및 목표</h4>
+            남부지부 체육대회를 추진하여 타 약대생과의 교류의 기회를
+            마련하겠습니다. 현재 ’과천관문체육공원‘과 컨택이 되었고 남부지부
+            차기 회장단들 (단일후보) 중 4개 학교에서 긍정적 답변을 주신
+            상태입니다. 또한 남부지부 행사인 만큼 다른 학교와의 대항전뿐만
+            아니라 타 약대생들과 조를 형성하여 미니게임들을 진행하고, 체육대회
+            후 뒷풀이를 통해 남부지부 약대생 간의 교류문화를 활성화하겠습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="atitle">
+      <div>
+        <h3 class="atitle0" @click="show2 = !show2">
+          6. 남부지부 문화 소모임 신설
+          <img
+            v-if="!show2"
+            class="arrow"
+            src="../../assets/images/down-arrow.png"
+          />
+          <img
+            v-if="show2"
+            class="arrow"
+            src="../../assets/images/up-arrow.png"
+          />
+        </h3>
+        <div class="acontents" v-if="show2">
+          <div>
+            <h4>필요성</h4>
+            문화생활(등산, 독서, 야구관람, 뮤지컬 및 연극 관람 등)를 좋아하는
+            학우분들께서 우리 학교 내에서는 힘께 같이 즐기는 인원이 적어서
+            아쉽고 여럿과 즐기고 싶다는 의견을 주셨습니다.
+          </div>
+          <div>
+            <h4>계획 및 목표</h4>
+            같은 문화생활을 즐기는 인원을 남부지부로 확대해 모집하여 소모임을
+            구성할 수 있도록 함으로써 문화 생활을 더욱 잘 즐길 수 있음과 동시에
+            현재 부족했던 남부지부 교류를 활성화하겠습니다. 이러한 소모임이
+            연합동아리로 발전한다면 남부지부 전체에 긍정적 효과를 기대할 수
+            있습니다.
           </div>
         </div>
       </div>

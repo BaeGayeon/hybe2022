@@ -8,7 +8,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
-          1. 공약 타임라인 제작
+          1. 공약 이행 타임라인 제작
           <img
             v-if="!show0"
             class="arrow"
@@ -41,40 +41,41 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show1 = !show1">
-          2. 학생회비 공개감사 진행
+        <h3 class="atitle0" @click="show3 = !show3">
+          2. 소통 학생 위원회 구성
           <img
-            v-if="!show1"
+            v-if="!show3"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show1"
+            v-if="show3"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show1">
+        <div class="acontents" v-if="show3">
           <div>
             <h4>필요성</h4>
-            한양약대 학우분들은 입학할 때 4년치 혹은 6년치의 학생회비를
-            내셨습니다. 그 비용이 어디에 어떻게 사용되고 관리되고 있는지는
-            모두에게 공개되어 누구나 알 수 있어야 합니다.
+            무인매점 사업, 제휴 사업, 협찬 사업 등에 있어서 학생회가 일방적인
+            공지만을 하여 학교의 주인인 학우 여러분의 의견을 잘 수렴하지
+            못했습니다.
           </div>
           <div>
             <h4>계획 및 목표</h4>
-            학생회비 공개감사를 진행하여 학생회비가 어떻게 사용되었는지 투명하게
-            공개하여 학우분들의 알 권리를 보장하겠습니다. 동시에 학생회비 현황과
-            사용계획에 대해서 공지하여 효율적이고 청렴하게 학생회비를
-            관리하겠습니다.
+            소통학생위원회를 구성하여, 학생회에서 추진하는 행사나 복지사업에
+            대한 학우 여러분의 귀중한 의견을 적극 반영하겠습니다. 의견 취합
+            방식은 익명 구글 폼으로 진행하여 익명성을 보장함으로써 학생회와 학우
+            간의 소통의 질을 향상하겠습니다.
           </div>
         </div>
       </div>
     </div>
+
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show2 = !show2">
-          3. 불편소리함 카카오톡 채팅방 개설
+          3. 불편소리함 카카오톡 익명 오픈채팅방 개설
           <img
             v-if="!show2"
             class="arrow"
@@ -109,38 +110,65 @@
 
     <div class="atitle">
       <div>
-        <h3 class="atitle0" @click="show3 = !show3">
-          4. 소통학생위원회 구성
+        <h3 class="atitle0" @click="show5 = !show5">
+          4. 한양약대 SNS/유튜브 활성화
           <img
-            v-if="!show3"
+            v-if="!show5"
             class="arrow"
             src="../../assets/images/down-arrow.png"
           />
           <img
-            v-if="show3"
+            v-if="show5"
             class="arrow"
             src="../../assets/images/up-arrow.png"
           />
         </h3>
-        <div class="acontents" v-if="show3">
+        <div class="acontents" v-if="show5">
           <div>
             <h4>필요성</h4>
-            무인매점 사업, 제휴 사업, 협찬 사업 등에 있어서 학생회가 일방적인
-            공지만을 하여 학교의 주인인 학우 여러분의 의견을 잘 수렴하지
-            못했습니다.
-          </div>
-          <div>
-            <h4>계획 및 목표</h4>
-            소통학생위원회를 구성하여, 학생회에서 추진하는 행사나 복지사업에
-            대한 학우 여러분의 귀중한 의견을 적극 반영하겠습니다. 의견 취합
-            방식은 익명 구글 폼으로 진행하여 익명성을 보장함으로써 학생회와 학우
-            간의 소통의 질을 향상하겠습니다.
+            아직 한양약대 SNS가 많이 활성화되지 않았고, 주로 인스타그램을 통해
+            한정적으로 이루어지고 있어서 플랫폼이 부족하다는 의견이 많았습니다.
+            SNS 활성화를 통해 정보를 빠르게 공유하고 학우분들이 학과 행사나
+            소식에 더 많은 관심을 가질 수 있어야 합니다.
           </div>
         </div>
       </div>
     </div>
 
     <div class="atitle">
+      <div>
+        <h3 class="atitle0" @click="show1 = !show1">
+          5. 학생회비 공개감사 진행
+          <img
+            v-if="!show1"
+            class="arrow"
+            src="../../assets/images/down-arrow.png"
+          />
+          <img
+            v-if="show1"
+            class="arrow"
+            src="../../assets/images/up-arrow.png"
+          />
+        </h3>
+        <div class="acontents" v-if="show1">
+          <div>
+            <h4>필요성</h4>
+            한양약대 학우분들은 입학할 때 4년치 혹은 6년치의 학생회비를
+            내셨습니다. 그 비용이 어디에 어떻게 사용되고 관리되고 있는지는
+            모두에게 공개되어 누구나 알 수 있어야 합니다.
+          </div>
+          <div>
+            <h4>계획 및 목표</h4>
+            학생회비 공개감사를 진행하여 학생회비가 어떻게 사용되었는지 투명하게
+            공개하여 학우분들의 알 권리를 보장하겠습니다. 동시에 학생회비 현황과
+            사용계획에 대해서 공지하여 효율적이고 청렴하게 학생회비를
+            관리하겠습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show4 = !show4">
           5. 재학생과 졸업생 간 교류 형성
@@ -174,36 +202,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="atitle">
-      <div>
-        <h3 class="atitle0" @click="show5 = !show5">
-          6. 한양약대 SNS 활성화
-          <img
-            v-if="!show5"
-            class="arrow"
-            src="../../assets/images/down-arrow.png"
-          />
-          <img
-            v-if="show5"
-            class="arrow"
-            src="../../assets/images/up-arrow.png"
-          />
-        </h3>
-        <div class="acontents" v-if="show5">
-          <div>
-            <h4>필요성</h4>
-            아직 한양약대 SNS가 많이 활성화되지 않았고, 주로 인스타그램을 통해
-            한정적으로 이루어지고 있어서 플랫폼이 부족하다는 의견이 많았습니다.
-            SNS 활성화를 통해 정보를 빠르게 공유하고 학우분들이 학과 행사나
-            소식에 더 많은 관심을 가질 수 있어야 합니다.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="atitle">
+    <!-- <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show6 = !show6">
           6-(1) 인스타그램 활성화
@@ -231,9 +232,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="atitle">
+    <!-- <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show7 = !show7">
           6-(2) 한양대학교 약학대학 유튜브 제작
@@ -258,9 +259,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="atitle">
+    <!-- <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show8 = !show8">
           6-(3) 에브리타임 약대 게시판 개설
@@ -284,7 +285,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

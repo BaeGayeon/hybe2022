@@ -111,7 +111,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show3 = !show3">
-          4. 여성, 남성 수면실 분리
+          5. 약학 도서관/국시실 시설 개선
           <img
             v-if="!show3"
             class="arrow"
@@ -124,39 +124,6 @@
           />
         </h3>
         <div class="acontents" v-if="show3">
-          <div>
-            <h4>필요성</h4>
-            현재 여학우들의 수면실 이용률이 현저히 낮습니다. 그 이유로 저희는
-            현재 남녀 수면실이 분리되어 있지 않아 학우분들이 이용하기에 불편하기
-            때문이라고 판단했습니다.
-          </div>
-          <div>
-            <h4>계획 및 목표</h4>
-            현재 수면실에 있는 사물함과 대여사업 물품들을 지하 1층으로 옮겨
-            충분한 수면 공간을 확보하여 남, 여 수면실을 분리함으로써 여학우들의
-            수면실 이용률을 높이고자 합니다. 이를 통해 수면 환경이 개선되고,
-            여학우뿐만 아니라 남학우도 수면실 이용이 편해질 것입니다.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="atitle">
-      <div>
-        <h3 class="atitle0" @click="show4 = !show4">
-          5. 약도 및 국시실 시설 개선
-          <img
-            v-if="!show4"
-            class="arrow"
-            src="../../assets/images/down-arrow.png"
-          />
-          <img
-            v-if="show4"
-            class="arrow"
-            src="../../assets/images/up-arrow.png"
-          />
-        </h3>
-        <div class="acontents" v-if="show4">
           <div>
             <h4>필요성 및 목표</h4>
             <p class="listp">
@@ -180,6 +147,39 @@
               5. 행거 및 옷걸이 : 두꺼운 겨울옷들을 편리하게 보관할 수 있도록
               국시실에 행거와 옷걸이를 설치하겠습니다.
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="atitle">
+      <div>
+        <h3 class="atitle0" @click="show4 = !show4">
+          5. 수면실 남,여 분리 및 담요 구비
+          <img
+            v-if="!show4"
+            class="arrow"
+            src="../../assets/images/down-arrow.png"
+          />
+          <img
+            v-if="show4"
+            class="arrow"
+            src="../../assets/images/up-arrow.png"
+          />
+        </h3>
+        <div class="acontents" v-if="show4">
+          <div>
+            <h4>필요성</h4>
+            현재 여학우들의 수면실 이용률이 현저히 낮습니다. 그 이유로 저희는
+            현재 남녀 수면실이 분리되어 있지 않아 학우분들이 이용하기에 불편하기
+            때문이라고 판단했습니다.
+          </div>
+          <div>
+            <h4>계획 및 목표</h4>
+            현재 수면실에 있는 사물함과 대여사업 물품들을 지하 1층으로 옮겨
+            충분한 수면 공간을 확보하여 남, 여 수면실을 분리함으로써 여학우들의
+            수면실 이용률을 높이고자 합니다. 이를 통해 수면 환경이 개선되고,
+            여학우뿐만 아니라 남학우도 수면실 이용이 편해질 것입니다.
           </div>
         </div>
       </div>

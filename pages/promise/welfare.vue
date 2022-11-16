@@ -8,7 +8,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
-          1. 무인매점 메뉴 및 운영기간 확대&가격인하
+          1. 무인매점 메뉴 다양화, 운영기간 확대 및 가격인하
           <img
             v-if="!show0"
             class="arrow"
@@ -67,7 +67,8 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show2 = !show2">
-          3. 제휴사업 확대 및 혜택 강화
+          3. 제휴업체 확대 및 혜택 강화
+          <br />&nbsp;&nbsp;&nbsp;포스터 부착을 통한 홍보
           <img
             v-if="!show2"
             class="arrow"
@@ -100,6 +101,40 @@
 
     <div class="atitle">
       <div>
+        <h3 class="atitle0" @click="show4 = !show4">
+          4. 동아리 지원금을 통한 동아리방 환경 개선
+          <img
+            v-if="!show4"
+            class="arrow"
+            src="../../assets/images/down-arrow.png"
+          />
+          <img
+            v-if="show4"
+            class="arrow"
+            src="../../assets/images/up-arrow.png"
+          />
+        </h3>
+        <div class="acontents" v-if="show4">
+          <div>
+            <h4>필요성</h4>
+            현재 지하 1층 동아리방은 공연 동아리를 제외하면 창고로 쓰이거나
+            관리가 제대로 되지 않고 있어 시설이 훼손되어 있는 부분이 있습니다.
+            또한 지하 1층에 벌레가 많이 나와 불쾌함을 느낀다는 의견이
+            많았습니다.
+          </div>
+          <div>
+            <h4>계획 및 목표</h4>
+            동아리 지원금을 통해 지하 1층 동아리방 환경을 개선하고, 훼손된
+            시설을 복구하여 동아리나 소모임 활동 시간 외 재학생들의 사용에도
+            불편이 없도록 하겠습니다. 또한 지하 1층에 벌레퇴치제 및 벌레퇴치기를
+            구비하여 보다 쾌적한 환경을 만들겠습니다.  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="atitle">
+      <div>
         <h3 class="atitle0" @click="show3 = !show3">
           4. 동아리 승격 절차 및 요건 완화 추진
 
@@ -130,41 +165,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="atitle">
-      <div>
-        <h3 class="atitle0" @click="show4 = !show4">
-          5. 동아리 지원금을 통한 동아리방 환경 개선
-          <img
-            v-if="!show4"
-            class="arrow"
-            src="../../assets/images/down-arrow.png"
-          />
-          <img
-            v-if="show4"
-            class="arrow"
-            src="../../assets/images/up-arrow.png"
-          />
-        </h3>
-        <div class="acontents" v-if="show4">
-          <div>
-            <h4>필요성</h4>
-            현재 지하 1층 동아리방은 공연 동아리를 제외하면 창고로 쓰이거나
-            관리가 제대로 되지 않고 있어 시설이 훼손되어 있는 부분이 있습니다.
-            또한 지하 1층에 벌레가 많이 나와 불쾌함을 느낀다는 의견이
-            많았습니다.
-          </div>
-          <div>
-            <h4>계획 및 목표</h4>
-            동아리 지원금을 통해 지하 1층 동아리방 환경을 개선하고, 훼손된
-            시설을 복구하여 동아리나 소모임 활동 시간 외 재학생들의 사용에도
-            불편이 없도록 하겠습니다. 또한 지하 1층에 벌레퇴치제 및 벌레퇴치기를
-            구비하여 보다 쾌적한 환경을 만들겠습니다.  
-          </div>
-        </div>
-      </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
