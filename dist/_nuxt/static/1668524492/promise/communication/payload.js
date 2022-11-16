@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/promise/communication", {data:[{}],fetch:{},mutations:void 0});
