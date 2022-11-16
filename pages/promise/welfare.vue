@@ -8,7 +8,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
-          1. 무인매점 메뉴 다양화, 운영기간 확대 및 가격인하
+          1. 무인매점 메뉴 다양화, 운영기간 확대 및 가격 인하
           <img
             v-if="!show0"
             class="arrow"
@@ -68,7 +68,8 @@
       <div>
         <h3 class="atitle0" @click="show2 = !show2">
           3. 제휴업체 확대 및 혜택 강화
-          <br />&nbsp;&nbsp;&nbsp;포스터 부착을 통한 홍보
+          <br /><span style="color: white">3.&nbsp;</span>포스터 부착을 통한
+          홍보
           <img
             v-if="!show2"
             class="arrow"

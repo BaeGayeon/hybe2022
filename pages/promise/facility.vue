@@ -9,7 +9,7 @@
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
           1. 업소용 원두 커피머신&제빙기 설치
-          <br />&nbsp;&nbsp;&nbsp;(100% 사비로 진행)
+          <br /><span style="color: white">1.&nbsp;</span>(100% 사비로 진행)
           <img
             v-if="!show0"
             class="arrow"
