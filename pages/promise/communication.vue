@@ -335,12 +335,12 @@
 export default {
   data() {
     return {
-      show0: false,
-      show1: false,
-      show2: false,
-      show3: false,
+      // show0: false,
+      // show1: false,
+      // show2: false,
+      // show3: false,
       // show4: false,
-      show5: false,
+      // show5: false,
       // show6: false,
       // show7: false,
       // show8: false,
@@ -403,7 +403,8 @@ span {
 }
 
 .arrow {
-  width: 20px;
+  /* width: 20px; */
+  width: 0px;
   vertical-align: middle;
   float: right;
 }
