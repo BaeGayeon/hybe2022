@@ -9,7 +9,6 @@
       <div>
         <h3 class="atitle0" @click="show0 = !show0">
           1. 업소용 원두 커피머신&제빙기 설치
-          <br /><span style="color: white">1.&nbsp;</span>(100% 사비로 진행)
           <img
             v-if="!show0"
             class="arrow"
@@ -44,7 +43,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show1 = !show1">
-          2. 430L 업소용 냉장고 설치(100% 사비로 진행)
+          2. 430L 업소용 냉장고 설치
           <img
             v-if="!show1"
             class="arrow"
@@ -78,7 +77,7 @@
     <div class="atitle">
       <div>
         <h3 class="atitle0" @click="show2 = !show2">
-          3. 화장실 비데 설치(100% 사비로 진행)
+          3. 화장실 비데 설치
           <img
             v-if="!show2"
             class="arrow"
