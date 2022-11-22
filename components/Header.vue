@@ -75,13 +75,21 @@
                 />
                 <a href="./promise/education">교육</a>
               </li>
-              <li class="menu submenu submenue" v-if="promiseview">
+              <li class="menu submenu" v-if="promiseview">
                 <img
                   class="sidemenuicon"
                   src="../assets/images/minus.png"
                   v-if="promiseview"
                 />
                 <a href="./promise/all">앞으로의 노력</a>
+              </li>
+              <li class="menu submenu submenue" v-if="promiseview">
+                <img
+                  class="sidemenuicon"
+                  src="../assets/images/minus.png"
+                  v-if="promiseview"
+                />
+                <a href="./promise/proposal">제안서 확인</a>
               </li>
             </ul>
           </li>

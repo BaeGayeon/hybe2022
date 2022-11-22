@@ -30,6 +30,9 @@
           <a href="promise/all" v-if="viewpromise">
             <li class="promiseBtn">앞으로의 노력</li>
           </a>
+          <a href="promise/proposal" v-if="viewpromise">
+            <li class="promiseBtn">제안서 확인</li>
+          </a>
         </ul>
         <nuxt-link to="statement">
           <li class="btn">
