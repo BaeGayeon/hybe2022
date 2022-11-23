@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/promise/proposal", {data:[{}],fetch:{},mutations:void 0});

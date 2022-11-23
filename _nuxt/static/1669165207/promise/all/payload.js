@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/promise/all", {data:[{}],fetch:{},mutations:void 0});
